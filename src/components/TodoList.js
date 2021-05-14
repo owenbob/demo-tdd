@@ -1,10 +1,11 @@
 
 import React from 'react';
+import TodoItem from "./TodoItem";
 
-const TodoList = ({ todos }) => (
+const TodoList = ({ todos, removeHandler, updateTodo }) => (
     <div>
         {todos.map((t, i) => (
-            <div key={i}> {t.title} </div>
+            <TodoItem key={i} todo={t} removeHandler={removeHandler} updateTodo={updateTodo}/>
         ))}
     </div>
 );
