@@ -4,7 +4,7 @@ const mockData = [
         userId: 1,
         id: 1,
         title: "Eat breakfast",
-        completed: false
+        completed: true
     },
     {
         userId: 1,
@@ -22,6 +22,18 @@ const mockData = [
         userId: 1,
         id: 4,
         title: "Write a blog post",
+        completed: true
+    },
+     {
+        userId: 1,
+        id: 4,
+        title: "refill food stock",
+        completed: true
+    },
+     {
+        userId: 1,
+        id: 6,
+        title: "workout",
         completed: true
     },
     {
